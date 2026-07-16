@@ -31,7 +31,7 @@ Existing files are preserved and never overwritten.
 
 ## Build the Generator
 ```sh
-g++ -std=c++23 -O2 -Wall -Wextra -pedantic main.cc -o newcc
+g++ -std=c++23 -O2 -Wall -Wextra -pedantic src/main.cc -o newcc
 ```
 
 The tool will automatically generate the files and attempt to launch VS Code in the project directory.
